@@ -25,7 +25,14 @@ class Rectangle():
     #       False otherwise
 
     # YOUR CODE HERE
-
+    def verify_input(width, height):
+        if isinstance(width, (int, float)) and isinstance(height, (int, float)):
+            if width > 0 and height > 0:
+                return True
+            else:
+                return False
+        else:
+            return False
 
 
     # Create the "area" method
