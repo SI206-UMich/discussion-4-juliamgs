@@ -15,7 +15,11 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     # YOUR CODE HERE
+class Rectangle:
 
+  def __init__(self, width, height):
+    self.width = width  
+    self.height = height
 
 
     # Create the "verify_input" method
